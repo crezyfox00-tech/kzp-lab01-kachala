@@ -3,20 +3,16 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kzp-data-report"
-version = "0.1.0"
-description = "CSV data report for Plant Nursery (Variant 12)"
+name = "kzp-oop-report"
+version = "0.2.0"
+description = "Object-oriented Python data report"
 requires-python = ">=3.11"
 
 [project.optional-dependencies]
-dev = [
-    "pytest>=8.0",
-    "ruff>=0.8",
-    "build>=1.2",
-]
+dev = ["pytest>=8.0", "ruff>=0.8", "build>=1.2"]
 
 [project.scripts]
-kzp-report = "kzp_lab06.cli:main"
+kzp-oop-report = "kzp_lab07.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

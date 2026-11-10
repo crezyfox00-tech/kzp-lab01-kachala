@@ -1,0 +1,2 @@
+[console_scripts]
+kzp-oop-report = kzp_lab07.cli:main

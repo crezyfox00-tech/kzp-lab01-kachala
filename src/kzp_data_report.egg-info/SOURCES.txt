@@ -12,4 +12,11 @@ src/kzp_lab06/cli.py
 src/kzp_lab06/errors.py
 src/kzp_lab06/loader.py
 src/kzp_lab06/reporting.py
+src/kzp_lab07/__init__.py
+src/kzp_lab07/analysis.py
+src/kzp_lab07/cli.py
+src/kzp_lab07/errors.py
+src/kzp_lab07/loader.py
+src/kzp_lab07/reporting.py
 tests/test_analysis.py
+tests/test_models.py
